@@ -1,0 +1,6 @@
+Experiment,Validation Accuracy (%),Test Accuracy (%)
+E1 - Supervised ConvNeXt-Atto,56.04,54.25
+E2 - SimCLR + Fine-tuning,67.08,63.25
+E3 - Joint SimCLR + Classification,68.33,68.5
+E4 - Optimized SSL-Based Classification,75.0,71.75
+E5 - ResNet-18 + MoCo v2 + Advanced Fine-Tuning + TTA,81.67,76.0
