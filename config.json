@@ -1,0 +1,26 @@
+{
+  "architecture": "ResNet-18",
+  "ssl_method": "MoCo v2",
+  "image_size": 224,
+  "tta": false,
+  "validation_accuracy": 81.66666626930237,
+  "test_accuracy": 75.99999904632568,
+  "class_names": [
+    "Bedroom",
+    "Coast",
+    "Flower",
+    "Forest",
+    "Highway",
+    "Industrial",
+    "InsideCity",
+    "Kitchen",
+    "LivingRoom",
+    "Mountain",
+    "Office",
+    "OpenCountry",
+    "Store",
+    "Street",
+    "Suburb",
+    "TallBuilding"
+  ]
+}
