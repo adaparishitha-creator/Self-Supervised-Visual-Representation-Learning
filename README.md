@@ -208,7 +208,7 @@ Independent training runs may produce slightly different results due to random i
 
 ## 6. Reproducing the Google Colab Experiments
 
-All five experiments were implemented and executed using Google Colab with GPU acceleration.
+All five experiments were implemented and executed using the Google Colab with GPU acceleration.
 
 The complete experimental notebook is available in this repository:
 
@@ -268,19 +268,19 @@ The notebook contains the complete experimental workflow, including model traini
 
 The results are also provided in `experiment_comparison.csv`.
 
-Experiment 5 achieved the highest validation and test accuracies among the evaluated approaches.
+Experiment 5 achieved highest validation and test accuracies among the evaluated approaches.
 
 ## 8. Reproducibility Notes
 
-- All models were initialized without pretrained weights.
+- All models were initialized without the pretrained weights.
 - No external training datasets were used.
 - The dataset contains 2,400 training images and 400 test images across 16 classes.
 - A stratified 80/20 split was used for training and validation.
 - Model selection was based on validation performance.
-- The held-out test dataset was used for final evaluation.
+- The held-out test dataset was used for the final evaluation.
 - The best model checkpoint is available through Google Drive.
 - `config.json` contains the final model configuration.
 - `evaluate.py` was verified locally and reproduced **76.00% test accuracy**.
-- GPU acceleration is recommended for training but is not required for evaluation.
+- GPU acceleration is recommended for training but is not required for the evaluation.
 
 ---
